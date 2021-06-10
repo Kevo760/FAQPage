@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 2em;
+}
+
+.mainbox {
+  display: flex;
+  max-width: 56em;
+  max-height: 31em;
+  background-color: white;
+  margin: 8em auto;
+  border-radius: 1.5em;
+  flex-direction: column;
+}
+
+.womandeskimg {
+  display: none;
+}
+
+
+
+/* ==================== DESKTOP =============================*/
+@media only screen and (min-width: 56em) {
+
+.mainbox {
+  flex-direction: row;
+}
+
+.womandeskimg {
+  display: inline;
+}
+
+.womanmobimg {
+  display: none;
+}
+
+}
