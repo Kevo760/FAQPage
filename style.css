@@ -8,7 +8,8 @@ height: 100%;
 margin: 0;
 background-repeat: no-repeat;
 background-attachment: fixed;
-padding: 2em;
+padding: 1em;
+padding-bottom: 10em;
 }
 
 .mainbox {
@@ -16,7 +17,7 @@ padding: 2em;
   max-width: 60em;
   max-height: 45em;
   background-color: white;
-  margin: 12em auto;
+  margin-top: 12em;
   border-radius: 1.2em;
   flex-direction: column;
   height: 100%;
@@ -80,10 +81,10 @@ h1 {
 }
 
 .faq {
-  margin-left: 2em;
+  margin-left: 1em;
   margin-top: -10em;
   position: relative;
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 
