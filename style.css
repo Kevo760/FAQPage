@@ -221,15 +221,19 @@ margin-left: -7em;
 
 /* ================== FAQ ==================*/
 
-.faq {
-margin: auto;
-text-align: left;
+h1 {
+  display: block;
+  align-items: left;
+  justify-content: center;
+  margin-left: .3em;
 }
 
-h1 {
-display: block;
-margin: auto;
-padding-left: .2em;
+.faq {
+  display: block;
+  margin-left: 1em;
+  margin-top: 3em;
+  margin-right: 5em;
+  position: relative;
 }
 
 
