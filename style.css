@@ -222,13 +222,14 @@ margin-left: -7em;
 /* ================== FAQ ==================*/
 
 .faq {
-  margin-top: 3.8em;
-  margin-right: 6em;
+margin: auto;
+text-align: left;
 }
 
 h1 {
-  margin-left: -11em;
-  margin-bottom: 1em;
+display: block;
+margin: auto;
+padding-left: .2em;
 }
 
 
