@@ -83,8 +83,7 @@ h1 {
 .faq {
   margin-left: 1em;
   margin-top: -10em;
-  position: relative;
-  margin-right: .5em;
+  margin-right: 1.5em;
 }
 
 
@@ -101,14 +100,10 @@ p.accordion {
     background-color: white;
     color: black;
     cursor: pointer;
-    padding: .5em;
-    width: 90%;
-    text-align: left;
-    border: none;
+    width: 100%;
     outline: none;
     transition: 0.2s;
-    margin-bottom:10px;
-    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 1.6em;
 }
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -140,20 +135,22 @@ p.accordion.active {
 /* Style the element that is used for the panel class */
 
 div.panel {
-    padding: 0 12px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
     opacity: 0;
 }
 
 div.panel.show {
+  padding-bottom: 1.5em;
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 
-
+.panelbox {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
 
 /* ================== ACCORDION ==================*/
 
@@ -226,7 +223,6 @@ h1 {
   display: block;
   align-items: left;
   justify-content: center;
-  margin-left: .3em;
 }
 
 .faq {
